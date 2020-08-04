@@ -10,6 +10,7 @@ setuptools.setup(
     author_email="moore.joshua@pm.me",
     description="A Box Kernel for Jupyter",
     long_description=long_description,
+    description_content_type='text/markdown',
     url="https://github.com/stauffenbits/box_kernel",
     packages=setuptools.find_packages(),
     classifiers=[
