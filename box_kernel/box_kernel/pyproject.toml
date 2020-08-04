@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "box_kernel"
+author = "Joshua Moore"
+author-email = "moore.joshua@pm.me"
+home-page = "https://github.com/stauffenbits/box_kernel"
+requires = ["pexpect (>=4.0)"]
+description-file = "README.rst"
+classifiers = [
+    "Framework :: IPython",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Shells",
+]
+

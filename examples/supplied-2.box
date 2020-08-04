@@ -1,0 +1,11 @@
+/* Variation of the previous example: */
+
+[|
+  [- 
+    [|2] 
+    2
+  ] 
+  
+  2 
+  [-2]
+]

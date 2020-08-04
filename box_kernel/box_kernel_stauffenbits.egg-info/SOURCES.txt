@@ -1,0 +1,10 @@
+setup.py
+box_kernel/__init__.py
+box_kernel/__main__.py
+box_kernel/images.py
+box_kernel/install.py
+box_kernel/kernel.py
+box_kernel_stauffenbits.egg-info/PKG-INFO
+box_kernel_stauffenbits.egg-info/SOURCES.txt
+box_kernel_stauffenbits.egg-info/dependency_links.txt
+box_kernel_stauffenbits.egg-info/top_level.txt

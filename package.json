@@ -1,0 +1,24 @@
+{
+  "name": "filmfreeway",
+  "version": "0.0.0",
+  "description": "box challenge solution",
+  "main": "box.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "pegjs -o src/box-parser.js src/box-parser.pegjs && cp src/*.js bin/. && chmod u+x src/box.js",
+    "start": "./bin/box.js"
+  },
+  "keywords": [
+    "box",
+    "challenge",
+    "filmfreeway"
+  ],
+  "author": "Joshua Moore",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "pegjs": "^0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}

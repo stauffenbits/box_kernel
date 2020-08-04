@@ -1,0 +1,10 @@
+/*
+  This is a nested box, 3 levels deep
+*/
+
+// comments
+[
+  /* The caret indicates a nesting */
+  ^ // comment test
+  3 // another comment test
+]
